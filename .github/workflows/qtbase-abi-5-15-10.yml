@@ -11,6 +11,7 @@ jobs:
     permissions:
       packages: write
       contents: read
+    options: --privileged -it
 
     steps:
       - uses: actions/checkout@v3

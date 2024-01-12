@@ -29,5 +29,4 @@ jobs:
         if_key_exists: replace
     
     - name: Build Package
-      run: chmod +x ./qtbase-abi-5-15-10.sh
-      run: ./qtbase-abi-5-15-10.sh
+      run:  chmod +x ./qtbase-abi-5-15-10.sh && ./qtbase-abi-5-15-10.sh

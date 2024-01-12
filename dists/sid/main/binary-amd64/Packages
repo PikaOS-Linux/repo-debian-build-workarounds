@@ -1,0 +1,14 @@
+Package: qtbase-abi-5-15-10
+Version: 5.15.10-100cosmo1
+Maintainer: Cosmic Fusion
+Architecture: amd64
+Depends: qtbase-abi-5-15-12
+Priority: 0
+Section: utils
+Filename: pool/main/q/qtbase-abi-5-15-10/qtbase-abi-5-15-10_5.15.10-100cosmo1_amd64.deb
+Size: 1228
+SHA256: 6a837094f69f065b5dd753c066bff104f814d30d633f7906a526575adb5d5be2
+SHA1: 2307e7a816a8278ec0e870ec8794be0109b85e92
+MD5sum: 574c84df34cd44c59b7abfbae8f06d08
+Description: make wrongly compiled shit shut the fuck up until we rebuild it against correct qt version
+

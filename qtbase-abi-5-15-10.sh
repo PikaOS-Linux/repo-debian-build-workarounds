@@ -36,6 +36,7 @@ reprepro -V \
 # Commit changes to git
 git config --global user.name 'Github Workflow Action'
 git config --global user.email 'hotrod.master@hotmail.com'
+git config --global --add safe.directory /__w/debian-workaround-packages-repo/debian-workaround-packages-repo
 git add .
 git commit -am"Add $(ls ./qtbase-abi-5-15-10*.deb)"
 git push

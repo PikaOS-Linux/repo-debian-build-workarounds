@@ -27,11 +27,8 @@ dpkg-deb --build qtbase-abi-5-15-10
 dpkg-sig --sign builder ./*.deb
 
 # Add the new package to the repo
-reprepro -V includedeb sid ./qtbase-abi-5-15-10*.deb
-
-# Commit all changes
-git config --global user.name 'Github Workflow Action'
-git config --global user.email 'hotrod.master@hotmail.com'
-git add .
-git commit -am"Add $(ls ./qtbase-abi-5-15-10*.deb)"
-git push
+reprepro -V \
+    --section utils \
+    --component main \
+    --priority 0 \
+    includedeb sid ./qtbase-abi-5-15-10*.deb

@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: debian:sid
+      image: ubuntu:latest
       volumes:
         - /proc:/proc
       options: --privileged -it
@@ -21,7 +21,7 @@ jobs:
 
 
       - name: Install Basic Packages
-        run: apt-get install -y git openssh reprepro dpkg-sig gh apt-utils gpg build-essential devscripts
+        run: apt-get install -y git openssh-client reprepro dpkg-sig gh apt-utils gpg build-essential devscripts
 
       - name: Import GPG key
         id: import_gpg

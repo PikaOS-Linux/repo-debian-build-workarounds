@@ -30,6 +30,8 @@ dpkg-sig --sign builder ./*.deb
 reprepro -V includedeb sid ./qtbase-abi-5-15-10*.deb
 
 # Commit all changes
+git config --global user.name 'Github Workflow Action'
+git config --global user.email 'hotrod.master@hotmail.com'
 git add .
-git commit -m"Add $(ls ./qtbase-abi-5-15-10*.deb)"
+git commit -am"Add $(ls ./qtbase-abi-5-15-10*.deb)"
 git push

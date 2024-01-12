@@ -1,0 +1,7 @@
+Origin: cosmicfusion
+Label: debian-workaround-packages-repo
+Suite: sid
+Codename: sid
+Architectures: amd64
+Components: main
+Description: Debian x64 github repository

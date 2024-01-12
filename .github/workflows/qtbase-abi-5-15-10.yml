@@ -4,14 +4,13 @@ on:
   workflow_dispatch
 
 jobs:
-  # Push image to GitHub Packages.
-  # See also https://docs.docker.com/docker-hub/builds/
-  push:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      packages: write
-      contents: read
-    options: --privileged -it
+    container:
+      image: debian:sid
+      volumes:
+        - /proc:/proc
+      options: --privileged -it
 
     steps:
       - uses: actions/checkout@v3

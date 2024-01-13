@@ -13,16 +13,16 @@ MD5sum: 0abcb9201a762a517ba0b0b970c72401
 Description: make wrongly compiled shit shut the fuck up until we rebuild it against correct qt version
 
 Package: qtwayland-client-abi-5-15-10
-Version: 5.15.10-100cosmo2
+Version: 5.15.10-100cosmo3
 Maintainer: Cosmic Fusion
 Architecture: amd64
-Depends: qtbase-abi-5-15-12
+Depends: qtwayland-client-abi-5-15-12
 Priority: 0
 Section: utils
-Filename: pool/main/q/qtwayland-client-abi-5-15-10/qtwayland-client-abi-5-15-10_5.15.10-100cosmo2_amd64.deb
-Size: 1240
-SHA256: c6e286da20db9f5df87c18ba72b06353e88d72b9cd61c516cc925d1d5fbef42d
-SHA1: 07c2f696bfeaf6df32c46d2eb0848813f23589cd
-MD5sum: c624a0df7b426cb6680ab4813f42d213
+Filename: pool/main/q/qtwayland-client-abi-5-15-10/qtwayland-client-abi-5-15-10_5.15.10-100cosmo3_amd64.deb
+Size: 1234
+SHA256: d9bf73206e01ba10c657eba5921d06a0bd7ea51bd5c7f22fc01fadb09ddf8929
+SHA1: 318bc521cc3a16eae6cf4c49d2e5acd458ec7c51
+MD5sum: c4df34b7ce773528ee142d1b39f3a962
 Description: make wrongly compiled shit shut the fuck up until we rebuild it against correct qt version
 

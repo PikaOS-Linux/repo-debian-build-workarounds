@@ -10,19 +10,33 @@ apt update
 # Get required packages
 apt-get install -y reprepro dpkg-sig git gh
 
-# setup package
+# setup amd64 package
 mkdir -p qtbase-abi-5-15-10/DEBIAN
 tee qtbase-abi-5-15-10/DEBIAN/control <<'EOF'
 Package: qtbase-abi-5-15-10
-Version: 5.15.10-100cosmo2
+Version: 5.15.10-100cosmo3
 Maintainer: Cosmic Fusion
 Architecture: amd64
 Depends: qtbase-abi-5-15-12
 Description: make wrongly compiled shit shut the fuck up until we rebuild it against correct qt version
 EOF
 
-# Build the package
+# Build the amd64 package
 dpkg-deb --build qtbase-abi-5-15-10
+
+# setup package
+mkdir -p qtbase-abi-5-15-10_x32/DEBIAN
+tee qtbase-abi-5-15-10_x32/DEBIAN/control <<'EOF'
+Package: qtbase-abi-5-15-10
+Version: 5.15.10-100cosmo3
+Maintainer: Cosmic Fusion
+Architecture: i386
+Depends: qtbase-abi-5-15-12
+Description: make wrongly compiled shit shut the fuck up until we rebuild it against correct qt version
+EOF
+
+# Build the i386 package
+dpkg-deb --build qtbase-abi-5-15-10_x32
 
 # Sign the packages
 dpkg-sig --sign builder ./*.deb

@@ -3,6 +3,8 @@
 # Remove old packages
 rm -rf ./qtbase-abi-5-15-10.deb || true
 rm -rf ./qtbase-abi-5-15-10 || true
+rm -rf ./qtbase-abi-5-15-10_x32.deb || true
+rm -rf ./qtbase-abi-5-15-10_x32 || true
 
 # Update apt cache
 apt update
@@ -14,7 +16,7 @@ apt-get install -y reprepro dpkg-sig git gh
 mkdir -p qtbase-abi-5-15-10/DEBIAN
 tee qtbase-abi-5-15-10/DEBIAN/control <<'EOF'
 Package: qtbase-abi-5-15-10
-Version: 5.15.10-100cosmo3
+Version: 5.15.10-100cosmo4
 Maintainer: Cosmic Fusion
 Architecture: amd64
 Depends: qtbase-abi-5-15-12
@@ -28,7 +30,7 @@ dpkg-deb --build qtbase-abi-5-15-10
 mkdir -p qtbase-abi-5-15-10_x32/DEBIAN
 tee qtbase-abi-5-15-10_x32/DEBIAN/control <<'EOF'
 Package: qtbase-abi-5-15-10
-Version: 5.15.10-100cosmo3
+Version: 5.15.10-100cosmo4
 Maintainer: Cosmic Fusion
 Architecture: i386
 Depends: qtbase-abi-5-15-12
@@ -50,6 +52,8 @@ reprepro -V \
 
 rm -rf ./qtbase-abi-5-15-10.deb || true
 rm -rf ./qtbase-abi-5-15-10 || true
+rm -rf ./qtbase-abi-5-15-10_x32.deb || true
+rm -rf ./qtbase-abi-5-15-10_x32 || true
 
 # Commit changes to git
 git config --global user.name 'Github Workflow Action'

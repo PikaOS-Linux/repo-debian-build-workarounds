@@ -3,6 +3,8 @@
 # Remove old packages
 rm -rf ./qtwayland-client-abi-5-15-10.deb || true
 rm -rf ./qtwayland-client-abi-5-15-10 || true
+rm -rf ./qtwayland-client-abi-5-15-10_x32.deb || true
+rm -rf ./qtwayland-client-abi-5-15-10_x32 || true
 
 # Update apt cache
 apt update
@@ -17,7 +19,7 @@ Package: qtwayland-client-abi-5-15-10
 Version: 5.15.10-100cosmo3
 Maintainer: Cosmic Fusion
 Architecture: amd64
-Depends: qtbase-abi-5-15-12
+Depends: qtwayland-client-abi-5-15-12
 Description: make wrongly compiled shit shut the fuck up until we rebuild it against correct qt version
 EOF
 
@@ -31,7 +33,7 @@ Package: qtwayland-client-abi-5-15-10
 Version: 5.15.10-100cosmo3
 Maintainer: Cosmic Fusion
 Architecture: i386
-Depends: qtbase-abi-5-15-12
+Depends: qtwayland-client-abi-5-15-12
 Description: make wrongly compiled shit shut the fuck up until we rebuild it against correct qt version
 EOF
 
@@ -50,6 +52,8 @@ reprepro -V \
 
 rm -rf ./qtwayland-client-abi-5-15-10.deb || true
 rm -rf ./qtwayland-client-abi-5-15-10 || true
+rm -rf ./qtwayland-client-abi-5-15-10_x32.deb || true
+rm -rf ./qtwayland-client-abi-5-15-10_x32 || true
 
 # Commit changes to git
 git config --global user.name 'Github Workflow Action'

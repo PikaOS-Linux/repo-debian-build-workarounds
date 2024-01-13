@@ -1,15 +1,15 @@
 Package: qtbase-abi-5-15-10
-Version: 5.15.10-100cosmo2
+Version: 5.15.10-100cosmo4
 Maintainer: Cosmic Fusion
 Architecture: amd64
 Depends: qtbase-abi-5-15-12
 Priority: 0
 Section: utils
-Filename: pool/main/q/qtbase-abi-5-15-10/qtbase-abi-5-15-10_5.15.10-100cosmo2_amd64.deb
+Filename: pool/main/q/qtbase-abi-5-15-10/qtbase-abi-5-15-10_5.15.10-100cosmo4_amd64.deb
 Size: 1228
-SHA256: e5c01eafaff81cba0d7b5fc3e9d78e75fcf764bccae82eaf31ed91228d7c6803
-SHA1: 8d37dd2ee13006e7555eae5587864c3aca28daa4
-MD5sum: d9421166b8b4856b1043f805599fc70d
+SHA256: 6be47a68709bb4edc931f659e92f6d85008dfd7a0354a9af6b144ac5983f5f82
+SHA1: a3132b1078f18329eddc45984f19917ae2fbc3f6
+MD5sum: 0abcb9201a762a517ba0b0b970c72401
 Description: make wrongly compiled shit shut the fuck up until we rebuild it against correct qt version
 
 Package: qtwayland-client-abi-5-15-10

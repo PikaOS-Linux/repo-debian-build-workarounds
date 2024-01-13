@@ -2,19 +2,28 @@ Origin: cosmicfusion
 Label: debian-workaround-packages-repo
 Suite: sid
 Codename: sid
-Date: Sat, 13 Jan 2024 09:02:50 UTC
-Architectures: amd64
+Date: Sat, 13 Jan 2024 09:50:29 UTC
+Architectures: amd64 i386
 Components: main
 Description: Debian x64 github repository
 MD5Sum:
- c5f4add260eec7877ef852c5c3e18d43 1072 main/binary-amd64/Packages
- a724b44dc14fe12e78703043072e7f33 484 main/binary-amd64/Packages.gz
+ 33d4179347beedb1ed34b94be35730f3 1072 main/binary-amd64/Packages
+ fc2647d708e6283d0c92182b5ffa93ab 492 main/binary-amd64/Packages.gz
  638d2eea087717468312427659140a09 151 main/binary-amd64/Release
+ 949290952823b30c24263518b6890f74 519 main/binary-i386/Packages
+ f595f2ee7bb523f0f7c98c60e3e34d16 358 main/binary-i386/Packages.gz
+ e0f7daeb3e433812262fa396e7a48791 150 main/binary-i386/Release
 SHA1:
- 9c2405942d06ff1140aaef95dba53184b0b62dde 1072 main/binary-amd64/Packages
- 3a1eb85cbf963376175a00c2d16e185f32621a48 484 main/binary-amd64/Packages.gz
+ c8c66e443ea7c9663590c1e10a3299a9522a0a52 1072 main/binary-amd64/Packages
+ d59bbd7613096be6dea96d413abe03eb2b0bfbd0 492 main/binary-amd64/Packages.gz
  bf7d938b9f938c2273a8e8a3e0c99f092eca92a8 151 main/binary-amd64/Release
+ b4ebd1ac49f8faa2a95e94cfd0ea726b290a0d93 519 main/binary-i386/Packages
+ 9f070f76373d6876ce930320a5cee5faa9e6fb92 358 main/binary-i386/Packages.gz
+ 2cf8f74271b2bad3e6592f1077812b145ad88b4a 150 main/binary-i386/Release
 SHA256:
- 937ec6a6d6d9763c22022791c65a5ec24ff1ad6d03c51afbc5d653d3fca3ad11 1072 main/binary-amd64/Packages
- e468a4cf22cb505c3e69d7621701ce6a6b8dca50ccf4661a95cd6057f2de1b41 484 main/binary-amd64/Packages.gz
+ 37eda522089843efefb36f3f133ee7b70c0d4d90a635db1b5d40b0fb1c577a24 1072 main/binary-amd64/Packages
+ 3398fd559842bfa7f0543122ca312a33eafb93e12459d0e59ba5b7a5a759b8d3 492 main/binary-amd64/Packages.gz
  780a07c1588c8fe6c338d8607dd500b1af577b8d3a19f9144a821ed2fa6fa1e2 151 main/binary-amd64/Release
+ 60aeecef879d6d9e0d59116268bc312b2b9f328f8dfe3b18d18f1dd2a63312d5 519 main/binary-i386/Packages
+ adace99de033a316640a55529e1c94f0e1d3fb8a7cd76157e53dbd5cf0798a64 358 main/binary-i386/Packages.gz
+ 7ca48248914a01a982463294467f08b0b16043da8ff49578d619a511af090fd3 150 main/binary-i386/Release

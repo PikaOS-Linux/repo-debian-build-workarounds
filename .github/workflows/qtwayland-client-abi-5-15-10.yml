@@ -45,4 +45,3 @@ jobs:
 
 #      - name: Commit changes back to git repository
 #        uses: stefanzweifel/git-auto-commit-action@v4
-qtwayland-client-abi-5-15-10

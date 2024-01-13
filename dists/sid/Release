@@ -2,19 +2,19 @@ Origin: cosmicfusion
 Label: debian-workaround-packages-repo
 Suite: sid
 Codename: sid
-Date: Fri, 12 Jan 2024 23:20:54 UTC
+Date: Sat, 13 Jan 2024 09:02:50 UTC
 Architectures: amd64
 Components: main
 Description: Debian x64 github repository
 MD5Sum:
- 691df31cc173c1bc9a4ad12428f91ad7 521 main/binary-amd64/Packages
- 6cb71713ba4bd1bbd1d323454fcd9612 358 main/binary-amd64/Packages.gz
+ c5f4add260eec7877ef852c5c3e18d43 1072 main/binary-amd64/Packages
+ a724b44dc14fe12e78703043072e7f33 484 main/binary-amd64/Packages.gz
  638d2eea087717468312427659140a09 151 main/binary-amd64/Release
 SHA1:
- 894fdd419bff952d45e50b49d806138518a8cee1 521 main/binary-amd64/Packages
- af8ffbb1a69bc699c454255ef078f26bd1c74fb0 358 main/binary-amd64/Packages.gz
+ 9c2405942d06ff1140aaef95dba53184b0b62dde 1072 main/binary-amd64/Packages
+ 3a1eb85cbf963376175a00c2d16e185f32621a48 484 main/binary-amd64/Packages.gz
  bf7d938b9f938c2273a8e8a3e0c99f092eca92a8 151 main/binary-amd64/Release
 SHA256:
- 36fb47e8d8c30faea1e736b736286e8548b532fb0b7f3fc78d7ea41fda663008 521 main/binary-amd64/Packages
- c4649fcc4e8ec23068428fb1d5d798ba8b1c7d6bb8f2d18985abe3965a4084e9 358 main/binary-amd64/Packages.gz
+ 937ec6a6d6d9763c22022791c65a5ec24ff1ad6d03c51afbc5d653d3fca3ad11 1072 main/binary-amd64/Packages
+ e468a4cf22cb505c3e69d7621701ce6a6b8dca50ccf4661a95cd6057f2de1b41 484 main/binary-amd64/Packages.gz
  780a07c1588c8fe6c338d8607dd500b1af577b8d3a19f9144a821ed2fa6fa1e2 151 main/binary-amd64/Release

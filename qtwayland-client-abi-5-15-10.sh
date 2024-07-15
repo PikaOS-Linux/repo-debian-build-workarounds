@@ -10,7 +10,7 @@ rm -rf ./qtwayland-client-abi-5-15-10_x32 || true
 apt update
 
 # Get required packages
-apt-get install -y reprepro wget git gh
+apt-get install -y wget git openssh-client reprepro gh apt-utils gpg build-essential devscripts
 wget http://ftp.us.debian.org/debian/pool/main/d/dpkg-sig/dpkg-sig_0.13.1+nmu4_all.deb -O ./dpkg-sig.deb
 apt-get install -y ./dpkg-sig.deb
 

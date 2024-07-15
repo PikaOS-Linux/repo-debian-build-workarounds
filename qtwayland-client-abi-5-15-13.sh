@@ -60,7 +60,7 @@ rm -rf ./qtwayland-client-abi-5-15-13_x32 || true
 # Commit changes to git
 git config --global user.name 'Github Workflow Action'
 git config --global user.email 'hotrod.master@hotmail.com'
-git config --global --add safe.directory /__w/debian-workaround-packages-repo/debian-workaround-packages-repo
+git config --global --add safe.directory /__w/repo-debian-build-workarounds/repo-debian-build-workarounds
 git add .
 git commit -am"Include Debfile file for qtwayland-client-abi-5-15-13"
 git push

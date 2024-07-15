@@ -1,5 +1,5 @@
 Origin: cosmicfusion
-Label: debian-workaround-packages-repo
+Label: repo-debian-build-workarounds
 Suite: sid
 Codename: sid
 Architectures: amd64 i386

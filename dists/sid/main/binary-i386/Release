@@ -1,6 +1,6 @@
 Archive: sid
 Component: main
 Origin: cosmicfusion
-Label: debian-workaround-packages-repo
+Label: repo-debian-build-workarounds
 Architecture: i386
 Description: Debian x64 github repository

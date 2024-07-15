@@ -12,6 +12,20 @@ SHA1: 5522651680e6005a0cf4a52ee722fc6bb588db22
 MD5sum: 8cc51c148aa06ad8815f3f6c4cd1a2a7
 Description: make wrongly compiled shit shut the fuck up until we rebuild it against correct qt version
 
+Package: qtbase-abi-5-15-13
+Version: 5.15.13-100cosmo4
+Maintainer: Cosmic Fusion
+Architecture: i386
+Depends: qtbase-abi-5-15-14
+Priority: 0
+Section: utils
+Filename: pool/main/q/qtbase-abi-5-15-13/qtbase-abi-5-15-13_5.15.13-100cosmo4_i386.deb
+Size: 1486
+SHA256: c93c0ebe507fee9f7df4a9d12a1154c565643c50948592dfc9d80e405e1e7dce
+SHA1: 49519338bd7d31b256b3daa2cc7716563bc71b64
+MD5sum: d738855f6c280dbd34295db3b4ecf2f7
+Description: make wrongly compiled shit shut the fuck up until we rebuild it against correct qt version
+
 Package: qtwayland-client-abi-5-15-10
 Version: 5.15.10-100cosmo3
 Maintainer: Cosmic Fusion

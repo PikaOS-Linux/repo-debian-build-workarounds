@@ -10,7 +10,9 @@ rm -rf ./qtbase-abi-5-15-13_x32 || true
 apt update
 
 # Get required packages
-apt-get install -y reprepro dpkg-sig git gh
+apt-get install -y reprepro wget git gh
+wget http://ftp.us.debian.org/debian/pool/main/d/dpkg-sig/dpkg-sig_0.13.1+nmu4_all.deb -O ./dpkg-sig.deb
+apt-get install -y ./dpkg-sig.deb
 
 # setup amd64 package
 mkdir -p qtbase-abi-5-15-13/DEBIAN

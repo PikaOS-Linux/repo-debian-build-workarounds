@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     container:
       image: ubuntu:latest
       volumes:
@@ -16,6 +16,9 @@ jobs:
 
       - name: Update Apt cache
         run: apt-get update -y
+
+      - name: Install Basic Packages
+        run: apt-get install -y git openssh-client reprepro gh apt-utils gpg build-essential devscripts
 
       - name: Import GPG key
         id: import_gpg

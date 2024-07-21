@@ -83,7 +83,7 @@ dpkg-deb --build qtwayland-client-abi-5-15-13_x32
 # setup qtdeclarative-abi-5-15-13 amd64 package
 mkdir -p qtdeclarative-abi-5-15-13/DEBIAN
 tee qtdeclarative-abi-5-15-13-5/DEBIAN/control <<'EOF'
-Package: qtdeclarative-abi-5-15-13-5-15-13
+Package: qtdeclarative-abi-5-15-13
 Version: 5.15.13-100cosmo4
 Maintainer: Cosmic Fusion
 Architecture: amd64

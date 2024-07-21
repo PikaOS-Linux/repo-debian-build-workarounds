@@ -1,0 +1,6 @@
+Package: qtdeclarative-abi-5-15-13-5-15-13
+Version: 5.15.13-100cosmo4
+Maintainer: Cosmic Fusion
+Architecture: amd64
+Depends: qtdeclarative-abi-5-15-13-5-15-14
+Description: Bridge Package for PikaOS Builder

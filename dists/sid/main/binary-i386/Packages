@@ -26,6 +26,20 @@ SHA1: 49519338bd7d31b256b3daa2cc7716563bc71b64
 MD5sum: d738855f6c280dbd34295db3b4ecf2f7
 Description: make wrongly compiled shit shut the fuck up until we rebuild it against correct qt version
 
+Package: qtdeclarative-abi-5-15-13
+Version: 5.15.13-100cosmo4
+Maintainer: Cosmic Fusion
+Architecture: i386
+Depends: qtdeclarative-abi-5-15-14
+Priority: 0
+Section: utils
+Filename: pool/main/q/qtdeclarative-abi-5-15-13/qtdeclarative-abi-5-15-13_5.15.13-100cosmo4_i386.deb
+Size: 1454
+SHA256: 363437a4a0b7d237ff79db6950755602dfb5130e1f0b8d9819c6a93a33aafad9
+SHA1: 712398fbf605a54d3a8d417fc63f1b12464f4720
+MD5sum: d2b8ba62e030a8d057c8aeea3f3c2e22
+Description: Bridge Package for PikaOS Builder
+
 Package: qtwayland-client-abi-5-15-10
 Version: 5.15.10-100cosmo3
 Maintainer: Cosmic Fusion
@@ -41,16 +55,16 @@ MD5sum: dc1f58ea1eb3aec0f742167fdba9aee5
 Description: make wrongly compiled shit shut the fuck up until we rebuild it against correct qt version
 
 Package: qtwayland-client-abi-5-15-13
-Version: 5.15.10-100cosmo3
+Version: 5.15.13-100cosmo4
 Maintainer: Cosmic Fusion
 Architecture: i386
 Depends: qtwayland-client-abi-5-15-14
 Priority: 0
 Section: utils
-Filename: pool/main/q/qtwayland-client-abi-5-15-13/qtwayland-client-abi-5-15-13_5.15.10-100cosmo3_i386.deb
-Size: 1494
-SHA256: 1c5cde344a6f49bac88397487c7f5f4f3074d48f29dc1b5ba6e826317c8614c6
-SHA1: ca99bac5e427061ef80fc177196a766fedb1642a
-MD5sum: bce602027e59066be3eb7e097a8c9056
-Description: make wrongly compiled shit shut the fuck up until we rebuild it against correct qt version
+Filename: pool/main/q/qtwayland-client-abi-5-15-13/qtwayland-client-abi-5-15-13_5.15.13-100cosmo4_i386.deb
+Size: 1456
+SHA256: 434f711fe056160692150cfce6a4db8294b938b42f6fb36630759d97c473ab8f
+SHA1: 4459e39d49110b3d162997c41119413ee98a3e1c
+MD5sum: 1cdd2a7cd700d9068e2b73ef0862e70a
+Description: Bridge Package for PikaOS Builder
 

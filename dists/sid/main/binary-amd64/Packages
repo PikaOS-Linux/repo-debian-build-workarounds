@@ -13,18 +13,18 @@ MD5sum: 0abcb9201a762a517ba0b0b970c72401
 Description: make wrongly compiled shit shut the fuck up until we rebuild it against correct qt version
 
 Package: qtbase-abi-5-15-13
-Version: 5.15.10-100cosmo4
+Version: 5.15.13-100cosmo4
 Maintainer: Cosmic Fusion
 Architecture: amd64
 Depends: qtbase-abi-5-15-14
 Priority: 0
 Section: utils
-Filename: pool/main/q/qtbase-abi-5-15-13/qtbase-abi-5-15-13_5.15.10-100cosmo4_amd64.deb
-Size: 1486
-SHA256: 90769476469b3fb94814b92c32bd8ca1658ee505cf92eae977788681a6ae5b0c
-SHA1: 2f2bc9800df3142c5d90f829b2a269915eb3caa7
-MD5sum: 49e5979bcb449a7b56358a70db96e487
-Description: make wrongly compiled shit shut the fuck up until we rebuild it against correct qt version
+Filename: pool/main/q/qtbase-abi-5-15-13/qtbase-abi-5-15-13_5.15.13-100cosmo4_amd64.deb
+Size: 1446
+SHA256: f088b90997e40f5cfb72a8e196f06132a45b516192e32dc75d2c409f183a0c64
+SHA1: 7d795639ea6746642cd8f0be6f891ff69e552abd
+MD5sum: fe641d12eaead33282406e5617ccff49
+Description: Bridge Package for PikaOS Builder
 
 Package: qtwayland-client-abi-5-15-10
 Version: 5.15.10-100cosmo3
@@ -41,16 +41,16 @@ MD5sum: c4df34b7ce773528ee142d1b39f3a962
 Description: make wrongly compiled shit shut the fuck up until we rebuild it against correct qt version
 
 Package: qtwayland-client-abi-5-15-13
-Version: 5.15.10-100cosmo3
+Version: 5.15.13-100cosmo4
 Maintainer: Cosmic Fusion
 Architecture: amd64
 Depends: qtwayland-client-abi-5-15-14
 Priority: 0
 Section: utils
-Filename: pool/main/q/qtwayland-client-abi-5-15-13/qtwayland-client-abi-5-15-13_5.15.10-100cosmo3_amd64.deb
-Size: 1492
-SHA256: 2e006e27f93b17baa8a521a3e8b7d408caf4d9033c622da6028289f25a07d071
-SHA1: 07ca69fc7b7371a7e27373d94942dad93d18bd8f
-MD5sum: 26a480a611ac36c38df32240ca7bee10
-Description: make wrongly compiled shit shut the fuck up until we rebuild it against correct qt version
+Filename: pool/main/q/qtwayland-client-abi-5-15-13/qtwayland-client-abi-5-15-13_5.15.13-100cosmo4_amd64.deb
+Size: 1454
+SHA256: 147592ac5f06c90da07baddb11b7401846344c75943dbd3893a0b378bd0620bb
+SHA1: e33d609b54acdb06e55a5f20476aea5887f62b17
+MD5sum: 0965656c694fa80736aa8acafa004180
+Description: Bridge Package for PikaOS Builder
 

@@ -2,28 +2,28 @@ Origin: cosmicfusion
 Label: repo-debian-build-workarounds
 Suite: sid
 Codename: sid
-Date: Mon, 15 Jul 2024 22:24:08 UTC
+Date: Sun, 21 Jul 2024 00:48:18 UTC
 Architectures: amd64 i386
 Components: main
 Description: Debian x64 github repository
 MD5Sum:
- 18efec96a4322c4acf87c56a69ec647b 2164 main/binary-amd64/Packages
- b93caf112da0de24446244deac1470f6 720 main/binary-amd64/Packages.gz
+ c4eeccd8fca3fdc7dbccb34e9e0c401f 2050 main/binary-amd64/Packages
+ b0a1ddd4e26cadc6615bf377b13d40bc 755 main/binary-amd64/Packages.gz
  638d2eea087717468312427659140a09 151 main/binary-amd64/Release
- 64a1636bd86d2a767a57009d6ba40ede 2156 main/binary-i386/Packages
- 7c5c7a158a0fb1b0e961a4adae0f2768 720 main/binary-i386/Packages.gz
+ 70a2135f184a50d65b76ed40731dd4d7 2589 main/binary-i386/Packages
+ da3b61eb5bf3a1126844ad6305bc1642 868 main/binary-i386/Packages.gz
  e0f7daeb3e433812262fa396e7a48791 150 main/binary-i386/Release
 SHA1:
- 2f3e408f8bac567725c1ff441d87d2499bb91178 2164 main/binary-amd64/Packages
- f1d7e8fd7d6cae4dfffb1c656c5bc28e7161cc28 720 main/binary-amd64/Packages.gz
+ 8bb79d82c59816046814099b3998c962c9f0a08d 2050 main/binary-amd64/Packages
+ 6ed5698d314250d3d7c357b6e2f93cb8fa802ef2 755 main/binary-amd64/Packages.gz
  bf7d938b9f938c2273a8e8a3e0c99f092eca92a8 151 main/binary-amd64/Release
- debfe694712c0858aa7991a4a4b54928a632e400 2156 main/binary-i386/Packages
- 0b3a39ba3b0fdb54e60685081e1233857203a347 720 main/binary-i386/Packages.gz
+ 9fab618d441d11ffc5d038ec86528090c5d7c6d1 2589 main/binary-i386/Packages
+ 66b1f15afcefe05df853fca3eaee7324e043218c 868 main/binary-i386/Packages.gz
  2cf8f74271b2bad3e6592f1077812b145ad88b4a 150 main/binary-i386/Release
 SHA256:
- 8c7aee8ad9a0011a988fcbef51580d1d47059fb26f5e94bdfecd9f17665d85ab 2164 main/binary-amd64/Packages
- b7201b9a7b23f502f01e0344048d7acb5afbd47d9314c71b80a22177e9c00e53 720 main/binary-amd64/Packages.gz
+ 01baf50b23ee7ada54ba23338e4c2635e8138bb7ec31ca6091b6eacf03f321f5 2050 main/binary-amd64/Packages
+ 4d8c28c11726c82f6a9107ea1a8cb82250cf77fa562f2d26f7473fc45e3e29ba 755 main/binary-amd64/Packages.gz
  780a07c1588c8fe6c338d8607dd500b1af577b8d3a19f9144a821ed2fa6fa1e2 151 main/binary-amd64/Release
- b536a3157b3962bb09c885e53746dfdea486b87b5a18b8d3ebbe9c537d977cad 2156 main/binary-i386/Packages
- a6bc46e77a2c8df5f886fca93a321882c86f7a379a04f2202c82fa384373bdba 720 main/binary-i386/Packages.gz
+ ad6a5f753134bc964c5d36f7862c49139312f0f4568cfad8ec818476be4fbe8b 2589 main/binary-i386/Packages
+ 220d53de1b808ebcaf0531548ff1359909151efb6ec6ebd1f96c5375af5fa6e0 868 main/binary-i386/Packages.gz
  7ca48248914a01a982463294467f08b0b16043da8ff49578d619a511af090fd3 150 main/binary-i386/Release

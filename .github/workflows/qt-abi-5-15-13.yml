@@ -1,4 +1,4 @@
-name: Build qtbase-abi-5-15-13
+name: Build qt-abi-5-15-13 bridge
 
 on:
   workflow_dispatch
@@ -40,7 +40,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Build Package
-        run: chmod +x ./qtbase-abi-5-15-13.sh && ./qtbase-abi-5-15-13.sh
+        run: chmod +x ./qt-abi-5-15-13.sh && ./qt-abi-5-15-13.sh
 
 #      - name: Commit changes back to git repository
 #        uses: stefanzweifel/git-auto-commit-action@v4

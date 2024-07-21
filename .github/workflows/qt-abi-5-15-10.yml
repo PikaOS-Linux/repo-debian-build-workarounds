@@ -1,4 +1,4 @@
-name: Build qtwayland-client-abi-5-15-10
+name: Build qt-abi-5-15-10 bridge
 
 on:
   workflow_dispatch
@@ -40,7 +40,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Build Package
-        run: chmod +x ./qtwayland-client-abi-5-15-10.sh && ./qtwayland-client-abi-5-15-10.sh
+        run: chmod +x ./qt-abi-5-15-10.sh && ./qt-abi-5-15-10.sh
 
 #      - name: Commit changes back to git repository
 #        uses: stefanzweifel/git-auto-commit-action@v4

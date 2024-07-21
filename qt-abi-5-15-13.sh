@@ -87,12 +87,12 @@ Package: qtdeclarative-abi-5-15-13
 Version: 5.15.13-100cosmo4
 Maintainer: Cosmic Fusion
 Architecture: amd64
-Depends: qtdeclarative-abi-5-15-13-5-15-14
+Depends: qtdeclarative-abi-5-15-14
 Description: Bridge Package for PikaOS Builder
 EOF
 
 # Build the qtdeclarative-abi amd64 package
-dpkg-deb --build qtdeclarative-abi-5-15-13
+#dpkg-deb --build qtdeclarative-abi-5-15-13
 
 # setup qtdeclarative-abi i386 package
 mkdir -p qtdeclarative-abi-5-15-13_x32/DEBIAN
@@ -106,7 +106,7 @@ Description: Bridge Package for PikaOS Builder
 EOF
 
 # Build the qtdeclarative-abi i386 package
-dpkg-deb --build qtdeclarative-abi-5-15-13_x32
+#dpkg-deb --build qtdeclarative-abi-5-15-13_x32
 
 # Sign the packages
 dpkg-sig --sign builder ./*.deb
@@ -116,21 +116,7 @@ reprepro -V \
     --section utils \
     --component main \
     --priority 0 \
-    includedeb sid ./qtbase-abi-5-15-13*.deb
-
-# Add the new qtwayland-client-abi package to the repo
-reprepro -V \
-    --section utils \
-    --component main \
-    --priority 0 \
-    includedeb sid ./qtwayland-client-abi-5-15-13*.deb
-
-# Add the new qtdeclarative-abi package to the repo
-reprepro -V \
-    --section utils \
-    --component main \
-    --priority 0 \
-    includedeb sid ./qtdeclarative-abi-5-15-13*.deb
+    includedeb sid ./*.deb
 
 rm -rf ./qtbase-abi-5-15-13.deb || true
 rm -rf ./qtbase-abi-5-15-13 || true

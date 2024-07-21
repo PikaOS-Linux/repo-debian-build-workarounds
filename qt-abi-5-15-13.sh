@@ -5,6 +5,12 @@ rm -rf ./qtbase-abi-5-15-13.deb || true
 rm -rf ./qtbase-abi-5-15-13 || true
 rm -rf ./qtbase-abi-5-15-13_x32.deb || true
 rm -rf ./qtbase-abi-5-15-13_x32 || true
+#
+rm -rf ./qtwayland-client-abi-5-15-13.deb || true
+rm -rf ./qtwayland-client-abi-5-15-13 || true
+rm -rf ./qtwayland-client-abi-5-15-13_x32.deb || true
+rm -rf ./qtwayland-client-abi-5-15-13_x32 || true
+#
 rm -rf ./qtwayland-client-abi-5-15-13.deb || true
 rm -rf ./qtwayland-client-abi-5-15-13 || true
 rm -rf ./qtwayland-client-abi-5-15-13_x32.deb || true
@@ -130,12 +136,17 @@ rm -rf ./qtbase-abi-5-15-13.deb || true
 rm -rf ./qtbase-abi-5-15-13 || true
 rm -rf ./qtbase-abi-5-15-13_x32.deb || true
 rm -rf ./qtbase-abi-5-15-13_x32 || true
+#
 rm -rf ./qtwayland-client-abi-5-15-13.deb || true
 rm -rf ./qtwayland-client-abi-5-15-13 || true
 rm -rf ./qtwayland-client-abi-5-15-13_x32.deb || true
 rm -rf ./qtwayland-client-abi-5-15-13_x32 || true
+#
+rm -rf ./qtdeclarative-abi-5-15-13.deb || true
+rm -rf ./qtdeclarative-abi-5-15-13 || true
+rm -rf ./qtdeclarative-abi-5-15-13_x32.deb || true
+rm -rf ./qtdeclarative-abi-5-15-13_x32 || true
 
-qtdeclarative-abi-5-15-13
 # Commit changes to git
 git config --global user.name 'Github Workflow Action'
 git config --global user.email 'hotrod.master@hotmail.com'
